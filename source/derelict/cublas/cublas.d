@@ -2,7 +2,7 @@
 module derelict.cublas;
 
 import derelict.util.loader;
-import derelict.cuda.runtimeapi : cuComplex, cuDoubleComplex, cudaStream_t, cudaDataType, libraryPropertyType;
+import derelict.cuda.runtimeapi;
 
 
 private
