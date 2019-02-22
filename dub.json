@@ -1,0 +1,19 @@
+{
+    "name": "derelict-cublas",
+    "description": "A dynamic binding to the CUBLAS API.",
+    "homepage": "https://github.com/naetherm/DerelictCUBLAS",
+    "license": "MIT",
+    "authors": [
+        "Markus Naether (naetherm)"
+    ],
+
+    "importPaths": ["source"],
+    "sourcePaths": ["source"],
+
+    "targetName": "DerelictCUBLAS",
+    "targetPath": "lib",
+
+    "dependencies": {
+        "derelict-util": "~>3.0.0-beta.1"
+    }
+}
